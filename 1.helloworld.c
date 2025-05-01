@@ -1,6 +1,9 @@
 #include<stdio.h>
 int main()
 {
-    printf("HELLO WORlD");
+    int a;
+    printf("ENTER:");
+    scanf("%d",&a);
+    printf("ENTERED DATA IS :%d");
     return 0;
 }
