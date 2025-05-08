@@ -2,6 +2,7 @@
 int main()
 {
     int N,i=1,s=0;
+    printf("Enter a NUmber:");
     scanf("%d", &N);
 
   while(i<=N)
@@ -9,6 +10,6 @@ int main()
       s=s+i;
       i++;
   }
-printf("%d",s);
+printf("The Natural Num for %d is :%d",N,s);
     return 0;
 }
